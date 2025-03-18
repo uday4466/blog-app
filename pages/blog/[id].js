@@ -35,12 +35,12 @@ export default function BlogDetails({ post }) {
       <div className="bg-white shadow rounded-lg p-6 max-w-3xl mx-auto">
         <h1 className="text-4xl font-bold mb-4 text-gray-800">{post.title}</h1>
         <p className="text-gray-700 leading-relaxed mb-4">{post.body}</p>
-        <a
+        <link
           href="/"
           className="text-blue-500 hover:underline text-lg"
         >
           ← Back to Home
-        </a>
+        </link>
       </div>
     </div>
   );
